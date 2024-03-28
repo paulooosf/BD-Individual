@@ -50,6 +50,6 @@ setor da delegacia, que tomará os passos para analisar e resolver.
 
 ## Autor
 
-- :man_technologist: [Paulo Henrique]([github.com/paulooosf](https://github.com/paulooosf))
+- :man_technologist: Paulo Henrique - [paulooosf](http://github.com/paulooosf)
 
   <sub>Projeto desenvolvido durante a disciplina de Banco de Dados da Residência em TIC/Software do Serratec.</sub>
