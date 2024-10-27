@@ -1,55 +1,35 @@
-<h1 align="center">
-    Banco de dados: Relação delegacia-denuncia
-</h1>
+<h1 align="center">Banco de dados: relação delegacia-denúncia</h1>
+<h4 align="center">Projeto desenvolvido durante a disciplina de Banco de Dados da Residência em TIC/Software 2024.1 do Serratec.</h4>
+<p align="center">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/POSTGRESQL-%234169E1?style=for-the-badge&logo=POSTGRESQL&logoColor=%234169E1&labelColor=black">
+  <img alt="DBeaver" src="https://img.shields.io/badge/dbeaver-%23382923?style=for-the-badge&logo=dbeaver&logoColor=%23382923&labelColor=black">
+</p>
+<p align="center">
+  <a href="#contexto">Contexto</a> •
+  <a href="#diagramas">Diagramas</a> •
+  <a href="#créditos">Créditos</a>
+</p>
 
-## :detective:Índice
-
-* Sobre o Projeto;
-* Tecnologias utilizadas;
-* Diagrama;
-* Autor.
-
-## :desktop_computer:Sobre o Projeto
-
-O projeto foi desenvolvido no PostgreSQL a partir de uma única relação: delegacia-denuncia. A partir desta foram modeladas outras entidades de acordo com o contexto da relação e das regras de negócio:
-
-### Contexto do relacionamento delegacia-denuncia: 
-
-> O departamento de Polícia do Rio de Janeiro adotou um novo sistema de 
+## Contexto
+O departamento de Polícia do Rio de Janeiro adotou um novo sistema de 
 gerenciamento de denúncias digitais, que armazena as denúncias 
 em um banco de dados relacional.
 Dependendo da categoria da denúncia, ela será alocada a um diferente
 setor da delegacia, que tomará os passos para analisar e resolver.
 
- ### Regras de Negócio:
-> * Cada usuário terá um cadastro;
-> * Um usuário poderá realizar uma ou mais denúncias;
-> * Haverão mais de uma categoria de denúncia disponíveis;
-> * Cada denúncia será alocada a uma diferente seção, que alocará um policial;
-> * Um policial irá iniciar um processo após receber uma denúncia;
-> * Cada policial será especializado em uma diferente categoria, que ditará sua seção.
+### Regras de Negócio:
+ * Cada usuário terá um cadastro;
+ * Um usuário poderá realizar uma ou mais denúncias;
+ * Haverão mais de uma categoria de denúncia disponíveis;
+ * Cada denúncia será alocada a uma diferente seção, que alocará um policial;
+ * Um policial irá iniciar um processo após receber uma denúncia;
+ * Cada policial será especializado em uma diferente categoria, que ditará sua seção.
+## Diagramas
+### Modelo Conceitual
+<img src=modeloConceitual.png>
 
-## :hammer_and_wrench: Tecnologias utilizadas
+### Modelo Lógico
+<img src=modeloLogico.png>
 
-- [DBeaver](https://dbeaver.io/download/)
-- [PostgreSQL](https://www.postgresql.org)
-- [Draw.io](https://app.diagrams.net/)
-- [GitHub](https://github.com/)
-
-## :chart_with_upwards_trend: Diagramas
-
-<div align="center">
-
-  ### Modelo Conceitual
-  <img src=modeloConceitual.png>
-  
-  ### Modelo Lógico
-  <img src=modeloLogico.png>
-
-</div>
-
-## Autor
-
-- :man_technologist: Paulo Henrique - [paulooosf](http://github.com/paulooosf)
-
-  <sub>Projeto desenvolvido durante a disciplina de Banco de Dados da Residência em TIC/Software do Serratec.</sub>
+## Créditos
+- Paulo Henrique - [paulooosf](http://github.com/paulooosf)
